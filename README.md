@@ -2,6 +2,8 @@
 
 # News Search
 
+![Wireframe](https://raw.githubusercontent.com/dl-watson/28_news-search/dev/public/wireframe.jpg)
+
 ## API
 
 * [News Api](https://newsapi.org/)
