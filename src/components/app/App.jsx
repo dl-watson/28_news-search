@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import NewsSearch from "../../../containers/NewsSearch";
+import NewsSearch from "../../containers/NewsSearch";
 
 export default class App extends React.Component {
   render() {
