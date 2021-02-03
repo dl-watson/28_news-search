@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header
       style={{
-        height: "80px",
+        height: "120px",
         border: "1px solid black",
       }}
     >

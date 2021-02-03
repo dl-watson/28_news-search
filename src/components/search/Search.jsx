@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 
-export default class Search extends Component {
-  render() {
-    return (
-      <div style={{ textAlign: "center" }}>
-        <input />
-      </div>
-    );
-  }
-}
+const Search = () => {
+  return (
+    <div style={{ textAlign: "center" }}>
+      <input />
+    </div>
+  );
+};
+
+export default Search;
