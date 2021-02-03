@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ArticlesList from "../components/articles/ArticlesList";
 import getArticles from "../services/getArticles";
+import Header from "../components/header/Header";
 
 export default class NewsSearch extends Component {
   state = {
@@ -18,7 +19,10 @@ export default class NewsSearch extends Component {
   render() {
     const { articles, loading } = this.state;
     return (
-      <>{loading ? <>Loading...</> : <ArticlesList articles={articles} />}</>
+      <>
+        <Header />
+        {loading ? <>Loading...</> : <ArticlesList articles={articles} />}
+      </>
     );
   }
 }

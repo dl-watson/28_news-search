@@ -1,20 +1,23 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Article = ({ title, author, description }) => {
+const Article = ({ url, title, author, description }) => {
   return (
     <>
-      <p style={{ fontSize: "1.2rem" }}>{title}</p>
-      <p>Written by: {author || "anonymous"}</p>
+      <a href={url} style={{ fontSize: "1.2rem" }}>
+        {title}
+      </a>
+      {author && <p>Written by: {author}</p>}
       <p>Summary: {description}</p>
     </>
   );
 };
 
 Article.propTypes = {
-  title: PropTypes.string,
+  url: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
   author: PropTypes.string,
-  description: PropTypes.string,
+  description: PropTypes.string.isRequired,
 };
 
 export default Article;
