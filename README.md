@@ -2,11 +2,7 @@
 
 # News Search
 
-<<<<<<< HEAD
 ![Wireframe](https://raw.githubusercontent.com/dl-watson/28_news-search/dev/public/wireframe.jpg)
-=======
-[Wireframe]('../public/wireframe.jpg')
->>>>>>> f3ee565eabd1b7aeb1acfa39bd622cba259f4c7e
 
 ## API
 
