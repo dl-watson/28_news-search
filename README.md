@@ -2,6 +2,8 @@
 
 # News Search
 
+[Wireframe]('../public/wireframe.jpg')
+
 ## API
 
 * [News Api](https://newsapi.org/)
