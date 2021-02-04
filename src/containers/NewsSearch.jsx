@@ -12,10 +12,11 @@ export default class NewsSearch extends Component {
   };
 
   handleSearch = ({ target }) => {
-    if (target.value) {
-      return searchArticles(target.value).then(({ articles }) => {
-        this.setState({ articles, search: target.value });
-      });
+    if (target.value.trim()) {
+      searchArticles(target.value).then(({ articles }) =>
+        this.setState({ articles, search: target.value })
+      );
+      this.setState({ search: target.value.trim() });
     }
   };
 

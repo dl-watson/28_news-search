@@ -3,12 +3,10 @@ import PropTypes from "prop-types";
 
 export default class Search extends Component {
   render() {
+    const { handleSearch } = this.props;
     return (
       <form style={{ textAlign: "center" }}>
-        <input
-          onChange={this.props.handleSearch}
-          placeholder="Search all articles..."
-        />
+        <input onChange={handleSearch} placeholder="Search all articles..." />
       </form>
     );
   }
