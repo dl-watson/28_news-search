@@ -14,6 +14,7 @@ exports[`Header component renders Header 1`] = `
       style="text-align: center;"
     >
       <input
+        data-testid="search-input"
         placeholder="Search all articles..."
       />
     </form>
