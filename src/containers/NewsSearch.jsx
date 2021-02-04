@@ -11,6 +11,12 @@ export default class NewsSearch extends Component {
     search: "",
   };
 
+  componentDidMount() {
+    getArticles().then(({ articles }) =>
+      this.setState({ articles, loading: false })
+    );
+  }
+
   handleSearch = ({ target }) => {
     if (target.value.trim()) {
       searchArticles(target.value).then(({ articles }) =>
@@ -19,12 +25,6 @@ export default class NewsSearch extends Component {
       this.setState({ search: target.value.trim() });
     }
   };
-
-  componentDidMount() {
-    return getArticles().then(({ articles }) =>
-      this.setState({ articles, loading: false })
-    );
-  }
 
   render() {
     const { articles, loading, search } = this.state;

@@ -13,11 +13,13 @@ exports[`App component renders App 1`] = `
       >
         News Search
       </h1>
-      <div
+      <form
         style="text-align: center;"
       >
-        <input />
-      </div>
+        <input
+          placeholder="Search all articles..."
+        />
+      </form>
     </header>
     Loading...
   </div>

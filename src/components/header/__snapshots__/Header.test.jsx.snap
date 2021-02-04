@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component renders Header 1`] = `
+<DocumentFragment>
+  <header
+    style="height: 120px; border: 1px solid black;"
+  >
+    <h1
+      style="text-align: center;"
+    >
+      News Search
+    </h1>
+    <form
+      style="text-align: center;"
+    >
+      <input
+        placeholder="Search all articles..."
+      />
+    </form>
+  </header>
+</DocumentFragment>
+`;
