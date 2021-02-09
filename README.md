@@ -2,7 +2,7 @@
 
 # News Search
 
-![Wireframe](https://raw.githubusercontent.com/dl-watson/28_news-search/dev/public/wireframe.jpg)
+![Wireframe](https://raw.githubusercontent.com/dl-watson/28_news-search/main/public/wireframe.jpg)
 
 ## API
 
